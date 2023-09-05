@@ -1,0 +1,21 @@
+# Path to the dataset and logging files
+dataset: "/media/david/media/TFM/article_dataset_v3"
+logging: "/home/david/Workspace/UncertaintyProxy"
+
+# Device to train or run inference on
+device: "cuda"
+
+# Class names of the dataset
+classes: ["spatangus_purpureus",
+          "echinaster_sepositus",
+          "cerianthus_membranaceus",
+          "bonellia_viridis",
+          "scyliorhinus_canicula",
+          "ophiura_ophiura",
+          "background"]
+
+# WANDB parameters. If not specified, not used.
+wandb:
+  params:
+    project: "ICM-Article"
+    entity: "davidserra9"

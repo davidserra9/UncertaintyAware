@@ -1,0 +1,6 @@
+defaults:
+  - base: home
+  - model: cnn
+  - training: parameters
+  - uncertainty: wrapper
+  - inference: home

@@ -1,0 +1,3 @@
+input_path: /home/david/Desktop/test
+class_activation_maps: CAM
+skip_classes: ["background"]

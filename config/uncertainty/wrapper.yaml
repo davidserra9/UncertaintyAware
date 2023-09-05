@@ -1,0 +1,16 @@
+encoder:
+  name: "efficientnet_b0"
+  params:
+    num_classes: 7
+    pretrained: False
+    model_path: "efficientnet_b0_25.pth"
+
+eval_dataloader:
+  batch_size: 1
+  num_workers: 4
+  shuffle: False
+
+mc_samples: 50
+dropout_rate: 0.25
+num_images_wandb: 5
+activation_map: "CAM"
